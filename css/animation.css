@@ -7,23 +7,23 @@
 @keyframes logo { 
 	from { 
  	opacity: 0;
- 	margin-top: -50px;;
+ 	margin-top: -60px;;
 }
 
 	27% {
 		opacity: 1;
-				margin-top: -50px; 
+				margin-top: -60px; 
 	}
 
 	50% { opacity: 1;
-				margin-top: -160px;        }
+				margin-top: -170px;        }
 
 
 	70% { opacity: 1;
-				margin-top: -160px;        }
+				margin-top: -170px;        }
 
 	to {
-		margin-top: -250px;
+		margin-top: -260px;
 	}
 }
 
@@ -34,7 +34,7 @@
  	margin-left: -700px;;
 }
 
-	37% { 
+	38% { 
  	opacity: 0;
  	margin-left: -700px;
 }
@@ -187,7 +187,7 @@
 	animation: made 8s 1 ease-in-out, border-back 0.5s 1 ease-in-out;
 }
 
-/*.main {
+.main {
 	animation: main 12s 1 ease-in-out;
 }
 
@@ -207,5 +207,5 @@
 
 .slogan {
 	animation: slogan 8s 1 ease-out ;
-}*/
+}
 
