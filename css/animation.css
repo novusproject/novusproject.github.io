@@ -187,7 +187,7 @@
 	animation: made 8s 1 ease-in-out, border-back 0.5s 1 ease-in-out;
 }
 
-/*.main {
+.main {
 	animation: main 12s 1 ease-in-out;
 }
 
@@ -207,5 +207,4 @@
 
 .slogan {
 	animation: slogan 8s 1 ease-out ;
-}*/
-
+}
