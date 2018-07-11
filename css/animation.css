@@ -1,0 +1,211 @@
+@keyframes come { /*animation: come 2s 1 ease-in-out;*/
+	from { opacity: 0; }
+	to { opacity: 1; }
+
+}
+
+@keyframes logo { 
+	from { 
+ 	opacity: 0;
+ 	margin-top: -50px;;
+}
+
+	27% {
+		opacity: 1;
+				margin-top: -50px; 
+	}
+
+	50% { opacity: 1;
+				margin-top: -160px;        }
+
+
+	70% { opacity: 1;
+				margin-top: -160px;        }
+
+	to {
+		margin-top: -250px;
+	}
+}
+
+
+@keyframes novus { 
+	from { 
+ 	opacity: 0;
+ 	margin-left: -700px;;
+}
+
+	37% { 
+ 	opacity: 0;
+ 	margin-left: -700px;
+}
+
+	60% {
+		opacity:1;
+ 	margin-left: -354px;
+	}
+	
+	70% {
+		opacity:1;
+ 	margin-left: -354px;
+	}
+
+	to { margin-left: 0;
+
+	}
+}
+
+@keyframes slogan {
+	from {
+		margin-top: 12px;
+		opacity: 0;
+		margin-left: -196px;
+	}
+
+	49% {
+		margin-top: 120px;
+		opacity: 0;
+		margin-left: -196px;
+	}
+
+	68% {
+		margin-top: 50px;
+		opacity: 1;
+		margin-left: -196px;
+	}
+
+	70% {
+		margin-top: 50px;
+		opacity: 1;
+		margin-left: -196px;
+	}
+
+	to {
+		margin-left: -400px;
+		margin-top: 50px;
+	}
+}
+
+
+@keyframes bg {
+	from { background-color: #06131b;
+					opacity: 0;  }
+	
+	50% { background-color: #06131b;
+				opacity: 0; }
+
+	to {  background-image: url(../img/bg.png);
+				opacity: 1;
+				display: none;}
+}
+
+@keyframes hover-back {
+	from {border-color: #4e4e4e;
+			color: #4e4e4e;}
+	to {border-color: ##a4a4a4
+				color:#a4a4a4; }
+}
+
+@keyframes hover {
+	from {border-color: ##a4a4a4
+				color:#a4a4a4; }
+	1% {border-color: #4e4e4e;
+			color: #4e4e4e;}
+	to {border-color: #4e4e4e;
+			color: #4e4e4e;}
+}
+
+@keyframes border-back {
+	from {border-radius: 25px;
+		border-color: #4e4e4e;
+			color: #4e4e4e;}
+	to {border-radius: 0;
+		border-color: ##a4a4a4
+				color:#a4a4a4;
+	}
+}
+
+@keyframes border {
+	from {border-radius: 0;
+	border-color: ##a4a4a4;
+				color:#a4a4a4; }
+	1% {border-radius: 25px;
+		border-color: #4e4e4e;
+			color: #4e4e4e;
+	}
+	to {border-radius: 25px;
+	border-color: #4e4e4e;
+			color: #4e4e4e;}
+}
+
+@keyframes main {
+	from {
+		opacity: 0;
+	}
+
+	80%{ opacity: 0; }
+	
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes made {
+	from {
+		opacity: 0;
+		top: 115%;
+	}
+
+	95% {
+		opacity: 1;
+		top: 90%;
+	}
+
+	to {
+		opacity: 0;
+		top: 90%;
+	}
+}
+
+
+.button:hover, .ip:hover, .text:hover  {
+	animation: hover 100s 1 ease-in-out;
+}
+
+.button, .ip, .text, .made {
+	animation: hover-back 0.5s 1 ease-in-out;
+}
+
+.button:hover, .ip:hover {
+	animation: border 100s 1 ease-in-out;
+}
+
+.button, .ip, .made {
+	animation: border-back 0.5s 1 ease-in-out;
+}
+
+.made {
+	animation: made 8s 1 ease-in-out, border-back 0.5s 1 ease-in-out;
+}
+
+/*.main {
+	animation: main 12s 1 ease-in-out;
+}
+
+.bg {
+	animation: bg 12s 1 linear;
+
+
+}
+
+.logo {
+	animation: logo 8s 1 ease;
+}
+
+.novus {
+	animation: novus 8s 1 ease-out  ;
+}
+
+.slogan {
+	animation: slogan 8s 1 ease-out ;
+}*/
+
