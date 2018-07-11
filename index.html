@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Novus.Project — The one of a kind</title>
+	<meta name="author" content="@2raev @two2raev">
+	<meta name="description" content="Описание сайта">
+	<meta name="keywords" content="Ключевые слова">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<script src="js/jquery-2.2.3.min.js"></script>
+	 <script>
+function selectText(elementId) {
+var doc = document,
+text = doc.getElementById(elementId),
+range,
+selection;
+if (doc.body.createTextRange) {
+range = document.body.createTextRange();
+range.moveToElementText(text);
+range.select();
+} else if (window.getSelection) {
+selection = window.getSelection();
+range = document.createRange();
+range.selectNodeContents(text);
+selection.removeAllRanges();
+selection.addRange(range);
+}}
+$(".ip").click(function() {
+selectText(this.id);
+document.execCommand("copy");
+});
+</script>
+
+
+</head>
+<body>
+	
+	<a target="_blank" href="https://vk.com/2raev" class="made"> MADE WITH <3 BY 2RAEV </a>
+	<div class="novus">NOVUS.PROJECT</div>
+	<div class="slogan">The one of a kind</div>
+	<img src="img/logo.png"  alt="" class="logo">
+	<div class=".container-fluid row justify-content-center bg">
+		<main class="col-sm-6 align-self-center main">
+			
+		<div class="ip">
+			projectnovus.ml:25585
+		</div>
+
+		<div class="text">
+			
+		<span class="line1">#NOVUS.PROJECT</span> <br> 
+		<span class="line2">ЛИЦЕНЗИОННЫЙ СЕРВЕР MINECRAFT C WHITE-LIST</span> <br> 
+		<span class="line3">БЕЗ ПРИВАТА, ГРИФЕРОВ, МИНИМУМ ПЛАГИНОВ, ВАНИЛЬНАЯ СТИЛИСТИКА</span> <br> 
+		<div class="line4" style="">ДАБЫ ВЫ СМОГЛИ ЗАЙТИ НА НАШ ПРОЕКТ, ВАМ НЕОБХОДИМО ПОДАТЬ АНКЕТУ  НА РАССМОТРЕНИЕ<br>  
+		АДМИНИСТРАЦИИ НАШЕГО ПРОЕКТА,  ЧТОБЫ ЭТО СДЕЛАТЬ НУЖНО ПЕРЕЙТИ ПО ССЫЛКЕ <br> 
+		НИЖЕ И ЗАПОЛНИТЬ АНКЕТУ, ПОСЛЕ ЧЕГО — ВЫ СМОЖЕТЕ ИГРАТЬ. </div>
+
+		</div>
+
+		<a href ="https://vk.cc/8chLQj" class="button">WHITE-LIST</a>
+
+		</main>
+	</div>
+</body>
+</html>
